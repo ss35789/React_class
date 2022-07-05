@@ -34,6 +34,26 @@ body{
 main{
     padding:36px;
 }
+.mainContent{
+    height: 500px;
+    background-repeat: no-repeat;
+    background-image:url(../public/img/memeImg.jpg);
+    
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    
+    
+}
+.memeTopText{
+    margin-top: auto;
+    position: top;
+    
+}
+.memeBotttomText{
+    position: bottom;
+    margin-bottom: auto;
+}
 .form{
     display:grid;
     grid-template: 40px 40px / 1fr 1fr;
