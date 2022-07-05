@@ -4,6 +4,7 @@
 
 header{
     display: flex;
+    
     align-items: center;
     height: 105px;
     background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
@@ -23,9 +24,32 @@ header{
 .header--project{
     font-size: 16px;
     font-weight: 500;
+    
 }
 body{
     font-family: "Karla", sans-serif;
     margin: 0;
+    
+}
+main{
+    padding:36px;
+}
+.form{
+    display:grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap:17px;
+}
+.form--btn{
+    grid-column :1 / -1;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form--input{
+    border-radius: 5px;
+    border: 1px solid #d5d4d8;
+    text-indent:5px;
     
 }
