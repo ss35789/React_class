@@ -1,7 +1,7 @@
-export default[
+export default [
     {
         id:1,
-        on:true
+        on:false
     },
     {
         id:2,
@@ -9,11 +9,11 @@ export default[
     },
     {
         id:3,
-        on:true
+        on:false
     },
     {
         id:4,
-        on:true
+        on:false
     },
     {
         id:5,
@@ -21,6 +21,6 @@ export default[
     },
     {
         id:6,
-        on:true
+        on:false
     }
 ]
