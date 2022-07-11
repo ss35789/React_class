@@ -35,12 +35,13 @@ main{
     padding:36px;
 }
 .mainContent{
+    
     height: 500px;
     background-repeat: no-repeat;
-    background-image:url(../public/img/memeImg.jpg);
+    
     
     text-align: center;
-    color: white;
+    color: black;
     font-size: 30px;
     
     

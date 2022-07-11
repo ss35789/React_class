@@ -25,6 +25,12 @@ export default function Meme(props){
                     ></input>
                 <input className='form--btn' type='submit' value='Update text'></input>
             </form>
+
+            <div className="mainContent">
+                <h2 className="memeTopText">{props.toptext}</h2>
+                <h2 className="memeBottomText">{props.bottomtext}</h2>
+                <img src='img/memeImg.jpg' className="memeImg"></img>
+            </div>
             
         </main>
     )
